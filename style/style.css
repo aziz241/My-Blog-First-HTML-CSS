@@ -1,0 +1,104 @@
+
+        
+        span.baslik{
+            display: block;
+            margin-left: 45%;
+            margin-right: 45%;
+            
+            width: auto;
+        }
+
+        ul.liste{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(0, 0, 0);
+            border-bottom: 2px solid rgb(255, 255, 255);
+            border-radius: 15px;
+            
+        }
+        li{
+            float: left;
+            text-align: center;
+        }
+        li.baslik a{
+            
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            text-align: center !important;
+            padding: 5px 30px;
+            margin-bottom: auto;
+            
+            text-decoration: none;
+            border-radius: 30px;
+         
+            border-right: 4px solid rgb(255, 255, 255);
+
+        }
+        .ulhtml{
+            display: inline-block;
+            
+            
+
+        }
+        .lihtml a{
+            display: block;
+            color: white;
+        }
+        li.baslik a:hover{
+            background-color: rgb(255, 255, 255);
+            color: black;
+ 
+            
+        }
+        html{
+            background-color: rgba(255, 255, 255, 0.863);
+            background-image: url(../img/arkaplan6.jpg);
+            width: auto;
+            height: auto;
+            
+        }
+        div{
+            background-color: none;
+            border-radius: 15px;
+        }
+
+        .lihtml{
+            text-decoration: none;
+            list-style: none;
+
+            color: white;
+
+        }
+        
+        .lihtml img,.lihtml a{
+            width: 300px;
+            height: auto;
+            text-align: center;
+            padding-right: 10px;
+        }
+        @media only screen and (max-width: 650px) {
+
+			 img{
+                height: auto;
+                width: 250px;
+				
+            }
+			
+            .baslik img{
+                height: auto;
+                width: 120px;
+            }
+            .baslik a{
+                width: 60px;
+                height: auto;
+            }
+			
+			
+			
+			
+
+			
+			}
+        
