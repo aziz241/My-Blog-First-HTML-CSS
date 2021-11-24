@@ -1,1 +1,1 @@
-# My-Blog-First-HTML-CSS
+# My-First-Static website-HTML+CSS
