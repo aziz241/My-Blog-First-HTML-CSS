@@ -7,39 +7,62 @@
     <link rel="icon" href="img/baskan.gif" type="image/x-icon">
     <title>HTML Nedir?</title>
     <link rel="stylesheet" href="style/style-blog.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+           .fa-p{
+    
+    font-size: 22px;
+    line-height: 150%;
+    word-spacing: 3px;
+    font-family: 'Oxygen', sans-serif;
+    padding: 20px;
+    }
+    .sagmenuokrenk{
+    color: red;
+    }
+    </style>
 </head>
 
 
 
 <body>  
     <div class="baslik">
-    <strong><span class="baslik"><a href="index.html"><img src="img/baskan.gif"  width="180" height="140"></a></span></strong>
+    <strong><span class="baslik"><a href="index.html"><img src="img/baskan.gif"  width="180" height="140"></a></span>
+    </div>
+    
+    <div id="navbar" class="navbarbicim">
+        <div class="container">
+        <ul> 
+          <li><a href="index.html"><i class="fas fa-home"></i> Anasayfa</a></li>
+          <li><a href="hakkimda2.html"><i class="far fa-address-card"></i> Hakkımda</a></li>
+          <li><a href="blog.htm"><i class="fas fa-rss"></i> Blog</a></li>
+          <li><a href="iletisim.htm"><i class="fas fa-envelope"></i> İletişim</a></li>
+          
+      </ul>
+    </div>
     </div>
     <div class="container">
 
-        <ul class="liste"> 
-            <li class="baslik"><a href="index.html">Anasayfa</a></li>
-            <li class="baslik"><a href="hakkimda.html">Hakkımda</a></li>
-            <li class="baslik"><a href="blog.htm">Blog</a></li>
-            <li class="baslik"><a href="iletisim.htm">İletişim</a></li>
-            
-        </ul>
             
         <div class="blog-posts">
             <div class="post1">
-                <h2 style="color: rgb(173, 19, 19);">HTML Nedir?</h2>
+                <h2 style="color: rgb(173, 19, 19);"><i class="fab fa-html5" style="margin-right: 15px;"></i> HTML Nedir?</h2>
                 <p class="date">19.09.2021</p>
-                <p>
+                <p class="fa-p">
                     Web tasarım konusunda araştırma yapan hemen herkesin karşına çıkan temel kavram HTMLdir. Web sayfalarını oluşturma aşamasında kullanılan standart bir metin işaret dili olan HTML açılımı “Hyper Text Markup Language” olarak bilinir. Genel bilinen yanlış kanının aksine HTML bir programlama dili değildir. Daha açık anlatmak gerekirse, Chrome, Firefox, Yandex gibi tarayıcıların okuyup anlamlandırdığı dil HTML dilidir.
                 </p>
-                <h2 style="color: rgb(173, 19, 19);">HTML Ne İşe Yarar?</h2>
 
-                <p class="post1">
-                    HTML, web tasarımcılarına sayfalar ve uygulamalar için yapı profilleri, bağlantılar, blok alıntılar, paragraflar ve başlıklar oluşturmalarında yardımcıdır. Bu konuda basit kod yapıları olan etiketler ve nitelikler kullanılarak web sayfaları şekillendirilebilir. HTML için aslında bir web sitesinin iskeleti denilebilir. Yani HTML kodları olmadan web sitesi kodlanamaz.
-
-                    Web sitesi ve sayfaları oluşturulurken mutlaka kullanılması gereken HTML, yeni başlayanlar için öğrenmesi en kolay biçimleme dillerinden biridir. HTML dersleri alarak sistemli bir çalışma için kendinizi geliştirebilir, öğrendiğiniz bilgileri web sayfası tasarlama aşamasında deneyebilirsiniz. Zamanla sahip olduklarınızdan fazlasını öğrenebilir ve web sitesi tasarlama konusunda söz sahibi olabilirsiniz.
-             
-                </p>
             </div>
 
 
@@ -48,13 +71,16 @@
 
 
         <div class="kategori">
-            
-            <ul class="kategori56">
-                <li class="kategoriler"><a class="kategoribaslik" href=blog2.htm>HTML Nedir?</a></li>
-                <li class="kategoriler"><a class="kategoribaslik" href=blog3.htm>CSS Nedir?</a></li>
-                <li class="kategoriler"><a class="kategoribaslik" href=blog4.htm>JavaScript Nedir?</a></li>
+
+            <ul class="ullist">
+                <li class="kategoriler"><a class="kategoribaslik" href=blog2.htm><i class="fas fa-caret-down sagmenuokrenk" style="margin-right: 15px;"></i>HTML Nedir?</a></li>
+                <ul>
+                    <li class="kategoriler"><a class="kategoribaslik" href="html-ne-ise-yarar.htm"><i class="fab fa-jira sagmenuokrenk" style="margin-right: 15px; font-size: 12px;"></i>HTML Ne işe Yarar?</a></li>
+                </ul>
+                <li class="kategoriler"><a class="kategoribaslik" href=blog3.htm><i class="fas fa-caret-right sagmenuokrenk" style="margin-right: 15px;"></i>CSS Nedir?</a></li>
+                <li class="kategoriler"><a class="kategoribaslik" href=blog4.htm><i class="fas fa-caret-right sagmenuokrenk" style="margin-right: 15px;"></i>JavaScript Nedir?</a></li>
             </ul>
-            
+
         </div>
     </div>
 
